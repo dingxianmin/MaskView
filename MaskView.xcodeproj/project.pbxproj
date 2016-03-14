@@ -14,7 +14,8 @@
 		05327B631C8EC8F60011EB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05327B621C8EC8F60011EB7C /* Assets.xcassets */; };
 		05327B661C8EC8F60011EB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05327B641C8EC8F60011EB7C /* LaunchScreen.storyboard */; };
 		05327B701C8EC93E0011EB7C /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05327B6F1C8EC93E0011EB7C /* MaskView.m */; };
-		05327B731C8ECAA90011EB7C /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05327B721C8ECAA90011EB7C /* TestView.m */; };
+		0589FC641C916B2900B3A364 /* CustomController_Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589FC631C916B2900B3A364 /* CustomController_Alert.m */; };
+		0589FC671C916B5D00B3A364 /* CustomController_ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589FC661C916B5D00B3A364 /* CustomController_ActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,10 @@
 		05327B671C8EC8F60011EB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05327B6E1C8EC93E0011EB7C /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
 		05327B6F1C8EC93E0011EB7C /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
-		05327B711C8ECAA90011EB7C /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
-		05327B721C8ECAA90011EB7C /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		0589FC621C916B2900B3A364 /* CustomController_Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomController_Alert.h; sourceTree = "<group>"; };
+		0589FC631C916B2900B3A364 /* CustomController_Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomController_Alert.m; sourceTree = "<group>"; };
+		0589FC651C916B5D00B3A364 /* CustomController_ActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomController_ActionSheet.h; sourceTree = "<group>"; };
+		0589FC661C916B5D00B3A364 /* CustomController_ActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomController_ActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +76,10 @@
 				05327B621C8EC8F60011EB7C /* Assets.xcassets */,
 				05327B641C8EC8F60011EB7C /* LaunchScreen.storyboard */,
 				05327B671C8EC8F60011EB7C /* Info.plist */,
-				05327B711C8ECAA90011EB7C /* TestView.h */,
-				05327B721C8ECAA90011EB7C /* TestView.m */,
+				0589FC651C916B5D00B3A364 /* CustomController_ActionSheet.h */,
+				0589FC661C916B5D00B3A364 /* CustomController_ActionSheet.m */,
+				0589FC621C916B2900B3A364 /* CustomController_Alert.h */,
+				0589FC631C916B2900B3A364 /* CustomController_Alert.m */,
 				05327B561C8EC8F60011EB7C /* Supporting Files */,
 			);
 			path = MaskView;
@@ -167,11 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0589FC671C916B5D00B3A364 /* CustomController_ActionSheet.m in Sources */,
 				05327B701C8EC93E0011EB7C /* MaskView.m in Sources */,
 				05327B5E1C8EC8F60011EB7C /* ViewController.m in Sources */,
-				05327B731C8ECAA90011EB7C /* TestView.m in Sources */,
 				05327B5B1C8EC8F60011EB7C /* AppDelegate.m in Sources */,
 				05327B581C8EC8F60011EB7C /* main.m in Sources */,
+				0589FC641C916B2900B3A364 /* CustomController_Alert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +324,7 @@
 				05327B6C1C8EC8F60011EB7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
